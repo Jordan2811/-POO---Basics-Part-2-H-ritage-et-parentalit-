@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Truck.php';
+require_once 'truck.php';
 $truck = new Truck('blue', 4, 'fuel', 50);
 echo $truck->setLoad(10) . ' ';
 echo $truck->fullOrNot() . '<br>';
