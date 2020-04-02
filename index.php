@@ -7,7 +7,7 @@ echo $truck->setLoad(10) . ' ';
 echo $truck->fullOrNot() . '<br>';
 echo $truck->setLoad(70) . ' ';
 echo $truck->fullOrNot() . '<br>';
-$truck = new Truck('red', 3, 'electric', 30);
+$truck = new Truck1('red', 3, 'electric', 30);
 echo $truck->setLoad(-10) . ' ';
 echo $truck->fullOrNot() . '<br>';
 echo $truck->setLoad(70) . ' ';
