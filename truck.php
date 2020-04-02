@@ -2,18 +2,18 @@
 
 require_once 'Vehicle.php';
 
-class Truck extends Vehicle
+class truck extends Vehicle
 {
     private $energy;
     private $storageCapacity;
     private $load = 0;
 
      public const MIN_LOAD = 0;
-     public function __construct(strin $color, int $nbSeats, string $energy, int $storageCapacity)
+     public function __construct(string $color, int $nbSeats, string $energy, int $storageCapacity)
      {
          parent::__construct($color, $nbSeats);
          $this->setEnergy($energy);
-         $this->setStorageCapacity($storageCapacity);
+         $this->StorageCapacity = $storageCapacity;
      }
 
      public function getEnergy(): string
@@ -46,7 +46,7 @@ class Truck extends Vehicle
         if ($load < 0 and $load < 50) {
             return $this->load = self::MIN_LOAD;
         }
-        return $this->>load = $load;
+        return $this->load = $load;
     }
 
     public function fullOrNot()
