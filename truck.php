@@ -11,19 +11,13 @@ class Truck extends Vehicle
 ];
 	const MIN_STORAGE = 0;
 
-	/**
-	 * @var string
-	 */
+	
 	private $tenergy;
 
-	/**
-	 * @var int
-	 */
+	
 	private $energyLevel;
 
-	/**
-	 * @var int
-	 */
+	
 	private $storageCapacity = 0;
 	private $storageMaxCapacity = 100;
 
